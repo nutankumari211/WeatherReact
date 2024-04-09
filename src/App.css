@@ -1,0 +1,63 @@
+/* App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.weather-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.error-card {
+  color: #ff0000;
+}
+
+/* App.css */
+
+/* Cold temperature */
+.cold {
+  background-color: #87CEFA; /* Light Sky Blue */
+}
+
+/* Moderate temperature */
+.moderate {
+  background-color: #90EE90; /* Light Green */
+}
+
+/* Hot temperature */
+.hot {
+  background-color: #FF6347; /* Tomato Red */
+}
+
+/* Rainy weather */
+.rainy {
+  background-color: #4682B4; /* Steel Blue */
+}
+
+/* Cloudy weather */
+.cloudy {
+  background-color: #A9A9A9; /* Dark Gray */
+}
+
+/* Clear weather */
+.clear {
+  background-color: #FFD700; /* Gold */
+}
